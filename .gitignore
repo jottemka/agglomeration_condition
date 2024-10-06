@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+agglomeration_condition_paper/
 
 # C extensions
 *.so
