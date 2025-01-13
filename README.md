@@ -1,6 +1,6 @@
 # A New Condition for Agglomeration in Bayesian Confirmation
 
-Bayesian confirmation does not generally agglomerate over conjunction. That is, whenever a piece of evidence $E$ confirms two hypotheses $H_1$ and $H_2$ *individually*, it does not follow that E also confirms them *conjunctively*. Or more formally, condition 1 below does not entail condition 2:
+Bayesian confirmation does not generally agglomerate over conjunction. That is, whenever a piece of evidence $E$ confirms two hypotheses $H_1$ and $H_2$ *individually*, it does not follow that $E$ also confirms them *conjunctively*. Or more formally, condition 1 below does not entail condition 2:
 
 1. $P(H_1|E)>P(H_1)$ and $P(H_2|E)>P(H_2)$
 
