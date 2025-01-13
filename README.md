@@ -1,6 +1,6 @@
 # A New Condition for Agglomeration in Bayesian Confirmation
 
-Bayesian confirmation does not generally agglomerate over conjunction. That is, whenever a piece of evidence $E$ confirms two hypotheses $H_1$ and $H_2$ *individually*, it does not follow that E also confirms them *conjunctively*. More formally, this means that condition 1 below does not entail condition 2:
+Bayesian confirmation does not generally agglomerate over conjunction. That is, whenever a piece of evidence $E$ confirms two hypotheses $H_1$ and $H_2$ *individually*, it does not follow that E also confirms them *conjunctively*. Or more formally, condition 1 below does not entail condition 2:
 
 1. $P(H_1|E)>P(H_1)$ and $P(H_2|E)>P(H_2)$
 
@@ -10,25 +10,25 @@ However, if the following new condition is satisfied, condition 1 *does* entail 
 
 3. $P(\neg H_1\land \neg H_2|E)>P(\neg H_1\land \neg H_2)$
 
-Due to the close relationship to Peirce’s NOR-connective, I call condition 3 *NOR-confirmation*. To see how bizarre this new result is, imagine the following dialogue:
+I call condition 3 *NOR-confirmation*. To see how peculiar this new result is, imagine the following dialogue:
 
-    Researcher: Mr. Jones, good to see you! I just received your lab results. I have some good and some bad news for you. The bad news is that the results confirm that you have viral pneumonia; and they also confirm that you have bacterial pneumonia.
+> Researcher: Mr. Jones, good to see you! I just received your lab results. I have some good and some bad news for you. The bad news is that the results confirm that you have viral pneumonia; and they also confirm that you have bacterial pneumonia.
+>
+> Jones: Oh dear! So I have both viral and bacterial pneumonia?! That explains why I feel so miserable!
+>
+> Researcher: Well, that is not quite what I said, Mr. Jones! In any case, the good news is that the results also confirm that you have neither viral nor bacterial pneumonia.
+>
+> Jones: Wait, didn’t you just tell me the opposite? Do the results confirm that I have viral and bacterial pneumonia or do they confirm that I don’t?!
+>
+> Researcher: Well, they confirm both, Mr. Jones, albeit in different ways.
+>
+> Jones: How can this be? Is there something wrong with the lab results?
+>
+> Researcher: No, I can assure you that our lab results are flawless and absolutely reliable. In fact, it follows that they also confirm that you have viral and bacterial pneumonia at the same time.
 
-    Jones: Oh dear! So I have both viral and bacterial pneumonia?! That explains why I feel so miserable!
+The researcher’s utterances sound confusing her inference seems invalid. But the researcher’s inference is valid and everything she says is consistent.
 
-    Researcher: Well, that is not quite what I said, Mr. Jones! In any case, the good news is that the results also confirm that you have neither viral nor bacterial pneumonia.
-
-    Jones: Wait, didn’t you just tell me the opposite? Do the results confirm that I have viral and bacterial pneumonia or do they confirm that I don’t?!
-
-    Researcher: Well, they confirm both, Mr. Jones, albeit in different ways.
-
-    Jones: How can this be? Is there something wrong with the lab results?
-
-    Researcher: No, I can assure you that our lab results are flawless and absolutely reliable. In fact, it follows that they also confirm that you have viral and bacterial pneumonia at the same time.
-
-Many readers will find the researcher’s utterances confusing and unhelpful. Perhaps, some will even question the validity of her inference, arguing that the lab results should *disconfirm* the hypothesis that Jones has viral and bacterial pneumonia. But the researcher’s inference is valid and everything she says is consistent.
-
-This repo provides the code for the numerical results involving NOR-confirmation.
+This repo provides the code for the numerical results involving the new NOR-confirmation condition.
 
 The results are published in Philosophy of Science:
 
@@ -45,7 +45,7 @@ Two types of prevalence values for NOR-confirmation are calculated:
 
 2. *Conditional Prevalence*: proportion of probability functions satisfying conditions 3 *if* they satisfy 1.
 
-These results are shown on the left-hand side of the plot. For comparison, the corresponding values for Simpson's paradox are shown on the right-hand side. The results are shown in the table below:
+These results are shown on the left-hand side of the plot. For comparison, the corresponding values for Simpson's paradox are shown on the right-hand side. The precise values are shown below:
 
 <table id="T_74a50">
   <thead>
