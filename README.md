@@ -34,6 +34,9 @@ The results are published in Philosophy of Science:
 
 - https://www.cambridge.org/core/journals/philosophy-of-science/article/new-condition-for-agglomeration-in-bayesian-confirmation/BF3906892462EEE562594F1F2713C119
 
+A penultimate version of the paper can be found here:
+
+- https://github.com/jottemka/agglomeration_condition/blob/main/agglomeration_ps.pdf
 
 ## Results
 
